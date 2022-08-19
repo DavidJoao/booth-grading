@@ -1,8 +1,5 @@
-import { Routes, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Nav, Navbar} from 'react-bootstrap'
-import About from './About'
-import Work from './Work'
-import Contact from './Contact'
 
 function Navigation(){
     return(
@@ -13,11 +10,6 @@ function Navigation(){
                     <Link className='nav-link' to="/work">Our Work</Link>
                     <Link className='nav-link' to="/contact">Contact</Link>
                 </Nav>
-                <Routes>
-                    <Route path='/' element={ <About /> } />
-                    <Route path='/work' element={ <Work /> } />
-                    <Route path='/contact' element={ <Contact /> } />
-                </Routes>
             </Navbar>
         </div>
     )
