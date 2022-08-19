@@ -1,5 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
 }
