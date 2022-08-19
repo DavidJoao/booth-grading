@@ -6,13 +6,14 @@ import { Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
-    <div style={{backgroundColor:'#24211a'}}>
+    <div style={{backgroundColor:'#252529'}}>
       <div>
-        <Header />
         <Navigation />
+        <Header />
       </div>
       <div>
         <Routes>
@@ -21,6 +22,7 @@ function App() {
             <Route path='/contact' element={ <Contact /> } />
         </Routes>
       </div>
+      <BackToTop />
     </div> 
   );
 }
