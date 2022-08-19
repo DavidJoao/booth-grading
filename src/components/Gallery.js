@@ -1,27 +1,29 @@
 import { Carousel } from 'react-bootstrap'
  
-function Gallery(){
+function Gallery( {first, second, third} ){
     return(
-        <Carousel style={{width:'100%'}} className="mx-auto">
+        <Carousel style={{width:'100%', paddingLeft:'15%', paddingRight:'15%'}} className="mx-auto">
                 <Carousel.Item>
                     <img
-                    style={{}}
-                    className="d-block w-100"
-                    src="https://www.blach.com/wp-content/uploads/2019/05/Homepage_Construction_Workers_Hero1-1.png"
+                    style={{width:'50vh', height:"50vh", borderRadius:'5px', border:'2px solid white', boxShadow:'3px 2px 42px 14px rgba(0,0,0,0.75)'}}
+                    className="d-block"
+                    src={first}
                     alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src="https://www.blach.com/wp-content/uploads/2019/05/Homepage_Construction_Workers_Hero1-1.png"
+                    style={{width:'50vh', height:"50vh", borderRadius:'5px', border:'2px solid white', boxShadow:'3px 2px 42px 14px rgba(0,0,0,0.75)'}}
+                    className="d-block"
+                    src={second}
                     alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src="https://www.blach.com/wp-content/uploads/2019/05/Homepage_Construction_Workers_Hero1-1.png"
+                    style={{width:'50vh', height:"50vh", borderRadius:'5px', border:'2px solid white', boxShadow:'3px 2px 42px 14px rgba(0,0,0,0.75)'}}
+                    className="d-block"
+                    src={third}
                     alt="Third slide"
                     />
                 </Carousel.Item>
