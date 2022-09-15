@@ -6,8 +6,6 @@ function Contact(){
         <div className='mb-5' style={{height:'auto', width:"100%", display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}>
             <h1 style={{color:'white', textAlign:'center'}} className="m-5">Contact Us</h1>
             <div className='mx-auto p-5 d-flex flex-column flex-md-row w-100'>
-                <Staff name={"Roger Booth"} phone={""} position={"Owner"} />
-                <Staff name={"Alfredo Sandoval"} phone={"661-547-3730"} position={"Field Administrator"} />
                 <Staff name={"Veronica Rivera"} phone={""} position={"Secretary"} />
                 <Staff name={"Byanka Arceo"} phone={""} position={"Secretary"} />
             </div>
